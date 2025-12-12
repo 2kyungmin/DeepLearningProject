@@ -1,0 +1,11 @@
+
+embeding -> lstm -> softmax with loss로 w 학습
+hidden state 획득 -> affine -> sigmoid로 확률 계산
+
+비장애인 아동과 장애인 아동의 W가 동시에 학습됨 이렇게 학습하면 제대로된 언어학습인가?
+언어학습 후 Affine과 Sigmoid로 확률 계산 -> 언어 예측 끝나고, 확률 계산 끝나고 loss 두번 계산?
+
+
+
+
+batch_x가 1차원 numpy배열이라 predict, forward에 문제 발생
